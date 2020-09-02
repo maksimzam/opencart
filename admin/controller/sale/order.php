@@ -22,6 +22,8 @@ class ControllerSaleOrder extends Controller {
 		$this->getForm();
 	}
 
+	// test method
+
 	public function edit() {
 		$this->load->language('sale/order');
 
