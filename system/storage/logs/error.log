@@ -224,3 +224,84 @@
 2020-09-02 17:52:53 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 416
 2020-09-02 17:52:53 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 418
 2020-09-02 17:52:53 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /Library/WebServer/Documents/opencart/system/library/log.php on line 14
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: entry_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 98
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: entry_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: entry_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 106
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:48:50 - PHP Notice:  Undefined variable: entry_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:55:44 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:55:44 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:58:10 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:58:10 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:59:28 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:59:28 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:59:29 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:59:29 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:59:41 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:59:41 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 6:59:50 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 6:59:50 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:00:52 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:00:52 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:00:56 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:00:56 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:00:56 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:00:56 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:00:57 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:00:57 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:00:57 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:00:57 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): AttValue: &quot; or ' expected in Entity, line: 53 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): attributes construct error in Entity, line: 53 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): Couldn't find end of Start Tag search line 53 in Entity, line: 53 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): Opening and ending tag mismatch: operation line 52 and search in Entity, line: 53 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): Opening and ending tag mismatch: file line 51 and operation in Entity, line: 59 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): Opening and ending tag mismatch: modification line 2 and file in Entity, line: 60 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Warning:  DOMDocument::loadXML(): Extra content at the end of the document in Entity, line: 61 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 7:07:14 - PHP Notice:  Trying to get property of non-object in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 146
+2020-09-03 7:17:51 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 100
+2020-09-03 7:17:51 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/view/template/sale/order_list.tpl on line 108
+2020-09-03 8:06:31 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 105
+2020-09-03 8:06:31 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 106
+2020-09-03 8:06:57 - PHP Notice:  Undefined variable: filter_date_added_start in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 105
+2020-09-03 8:06:57 - PHP Notice:  Undefined variable: filter_date_added_end in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 106
+2020-09-03 8:23:56 - PHP Warning:  DOMDocument::loadXML(): Start tag expected, '&lt;' not found in Entity, line: 1 in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 143
+2020-09-03 8:23:56 - PHP Notice:  Trying to get property of non-object in /Library/WebServer/Documents/opencart/admin/controller/extension/modification.php on line 146
+2020-09-03 8:46:46 - PHP Warning:  include(/Library/WebServer/Documents/opencart/system/PHPExcel/PHPExcel.php): failed to open stream: No such file or directory in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 126
+2020-09-03 8:46:46 - PHP Warning:  include(): Failed opening '/Library/WebServer/Documents/opencart/system/PHPExcel/PHPExcel.php' for inclusion (include_path='.:/usr/local/php5/lib/php') in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 126
+2020-09-03 10:06:45 - PHP Notice:  Undefined index: shipping_address_1 in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 200
+2020-09-03 10:06:45 - PHP Notice:  Undefined index: shipping_address_2 in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 200
+2020-09-03 10:06:45 - PHP Notice:  Undefined variable: firststyle in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 207
+2020-09-03 10:15:35 - PHP Notice:  Undefined variable: firststyle in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 205
+2020-09-03 10:17:33 - PHP Notice:  Undefined variable: firststyle in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 205
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:29:33 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:32:04 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 194
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196
+2020-09-03 10:35:10 - PHP Notice:  Undefined variable: order_id in /Library/WebServer/Documents/opencart/system/storage/modification/admin/controller/sale/order.php on line 196

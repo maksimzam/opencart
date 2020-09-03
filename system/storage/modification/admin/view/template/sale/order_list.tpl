@@ -86,12 +86,39 @@
                   </span></div>
               </div>
               <button type="button" id="button-filter" class="btn btn-primary pull-right"><i class="fa fa-filter"></i> <?php echo $button_filter; ?></button>
-
-            <button type="button" id="button-filter-excel" class="btn btn-primary pull-right"><i class="fa fa-filter"></i> to excel</button>
-            
             </div>
           </div>
         </div>
+
+            <div class="well">
+              <div class="row">
+                <div class="col-sm-6">
+
+                    <div class="form-group">
+                <label class="control-label" for="input-date-added-start"><?php echo $entry_date_added_start; ?></label>
+                <div class="input-group date">
+                  <input type="text" name="filter_date_added_start" value="<?php echo $filter_date_added_start; ?>" placeholder="<?php echo $entry_date_added_start; ?>" data-date-format="YYYY-MM-DD" id="input-date-added-start" class="form-control" />
+                  <span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                  </span></div>
+              </div>
+      <div class="form-group">
+                <label class="control-label" for="input-date-added-end"><?php echo $entry_date_added_end; ?></label>
+                <div class="input-group date">
+                  <input type="text" name="filter_date_added_end" value="<?php echo $filter_date_added_end; ?>" placeholder="<?php echo $entry_date_added_end; ?>" data-date-format="YYYY-MM-DD" id="input-date-added-end" class="form-control" />
+                  <span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                  </span></div>
+              </div>
+
+                    <button type="button" id="button-filter-excel" class="btn btn-primary pull-right"><i class="fa fa-filter"></i><?php echo $entry_load_to_excel; ?> </button>
+            
+                </div>
+                <div class="col-sm-6">
+                </div>
+              </div>
+            </div>  
+            
         <form method="post" action="" enctype="multipart/form-data" id="form-order">
           <div class="table-responsive">
             <table class="table table-bordered table-hover">
@@ -169,7 +196,26 @@
   <script type="text/javascript"><!--
 
             $('#button-filter-excel').on('click', function() {
-                alert("ok");
+                    url = 'index.php?route=sale/order/save_to_excel&token=<?php echo $token; ?>';
+
+                    var filter_date_added_start = $('input[name=\'filter_date_added_start\']').val();
+
+                    if (filter_date_added_start) {
+                          url += '&filter_date_added_start=' + encodeURIComponent(filter_date_added_start);
+                    }
+
+                    var filter_date_added_end = $('input[name=\'filter_date_added_end\']').val();
+
+                    if (filter_date_added_end) {
+                          url += '&filter_date_added_end=' + encodeURIComponent(filter_date_added_end);
+                    }
+
+                    if (!filter_date_added_end || !filter_date_added_start) {
+                      alert('<?php echo $error_select_date; ?>')
+                      return false;
+                    }
+
+                    location = url;
             });
             
 $('#button-filter').on('click', function() {
