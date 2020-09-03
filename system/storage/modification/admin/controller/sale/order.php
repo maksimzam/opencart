@@ -201,8 +201,6 @@ class ControllerSaleOrder extends Controller {
 
                             if ($product_info) {
                                     $product_str .= $product_info['name'] . "\n";
-                                    $product_str .= $product_info['name'] . "\n";
-                                    $product_str .= $product_info['name'] . "\n";
                                     
                             }
                         }

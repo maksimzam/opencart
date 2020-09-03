@@ -3962,3 +3962,75 @@ FILE: admin/model/sale/order.php
 CODE: $sort_data = array(
 LINE: 216
 ----------------------------------------------------------------
+2020-09-03 17:01:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 278
+----------------------------------------------------------------
+MOD: Orders To Excel
+
+FILE: admin/view/template/sale/order_list.tpl
+CODE: <form method="post" action="" enctype="multipart/form-data" id="form-order">
+LINE: 121
+CODE: $('#button-filter').on('click', function() {
+LINE: 220
+
+FILE: admin/language/ru-ru/sale/order.php
+CODE: // Text
+LINE: 19
+
+FILE: admin/language/en-gb/sale/order.php
+CODE: // Text
+LINE: 18
+
+FILE: admin/controller/sale/order.php
+CODE: $data['button_ip_add'] = $this->language->get('button_ip_add');
+LINE: 262
+LINE: 469
+LINE: 854
+CODE: $data['filter_date_modified'] = $filter_date_modified;
+LINE: 382
+CODE: protected function getList() {
+LINE: 246
+
+FILE: admin/model/sale/order.php
+CODE: $sort_data = array(
+LINE: 216
+----------------------------------------------------------------
